@@ -1,8 +1,6 @@
 const { getGithubInfo, getOverwatchInfo } = require('./helpers.js');
 const express = require('express');
 const cors = require('cors');
-require('dotenv').config();
-
 
 const token = process.env.TOKEN;
 const username = process.env.USERNAME;
